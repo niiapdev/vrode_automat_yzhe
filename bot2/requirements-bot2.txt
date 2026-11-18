@@ -1,0 +1,15 @@
+# Зависимости цепочки bot2 (скачивание аниме + ВК-бот).
+# Отдельный файл, чтобы не менять requirements.txt проекта.
+#
+# Установка:  python -m pip install -r bot2/requirements-bot2.txt
+# Для GPU (Windows + NVIDIA) дополнительно нужны пакеты nvidia-* из requirements.txt.
+
+vkbottle
+yt-dlp
+requests>=2.31,<3
+anime-dl-core==0.5.1
+faster-whisper==1.2.1
+av==18.1.0
+ffmpeg-python
+
+# Также требуется бинарник ffmpeg в PATH.

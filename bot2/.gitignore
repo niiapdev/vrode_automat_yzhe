@@ -1,0 +1,9 @@
+__pycache__/
+.vkbottle/
+jobs2/
+local_out2/
+tiktok_out2/
+logs2/
+local_stage2/
+selftest/
+jobs2.sqlite3

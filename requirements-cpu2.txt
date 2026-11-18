@@ -1,0 +1,13 @@
+# Зависимости для ПК БЕЗ видеокарты (CPU, int8).
+# Установка: python -m pip install -r requirements-cpu2.txt
+#
+# Отличия от requirements.txt: нет пакетов nvidia-* (CUDA не нужна).
+# Для GPU-ПК используйте requirements.txt.
+
+vkbottle
+yt-dlp
+faster-whisper==1.2.1
+av==18.1.0
+ffmpeg-python
+
+# Также требуется бинарник ffmpeg в PATH (choco install ffmpeg / winget install ffmpeg)

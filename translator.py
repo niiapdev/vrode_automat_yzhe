@@ -1,10 +1,31 @@
 import asyncio
 import logging
+import os
+import sys
+import pathlib
 from pathlib import Path
 from typing import Awaitable, Callable, Optional
 
-from faster_whisper import WhisperModel
+# На Windows DLL-библиотеки CUDA из pip-пакетов nvidia-* лежат не в PATH.
+# Держим handles живыми: при сборке мусора os.add_dll_directory отменяет каталог.
+_DLL_DIRECTORY_HANDLES = []
+if os.name == "nt":
+    _site_packages = pathlib.Path(sys.prefix) / "Lib" / "site-packages"
+    _cuda_dirs = [
+        _site_packages / "nvidia" / "cublas" / "bin",
+        _site_packages / "nvidia" / "cuda_runtime" / "bin",
+        _site_packages / "nvidia" / "cuda_nvrtc" / "bin",
+        _site_packages / "nvidia" / "cudnn" / "bin",
+    ]
+    _existing_cuda_dirs = [d for d in _cuda_dirs if d.is_dir()]
+    for _dir in _existing_cuda_dirs:
+        _DLL_DIRECTORY_HANDLES.append(os.add_dll_directory(str(_dir)))
+    if _existing_cuda_dirs:
+        os.environ["PATH"] = os.pathsep.join(
+            [str(d) for d in _existing_cuda_dirs] + [os.environ.get("PATH", "")]
+        )
 
+from faster_whisper import WhisperModel
 import config
 
 logger = logging.getLogger("translator")
@@ -15,6 +36,12 @@ _model: Optional[WhisperModel] = None
 def _get_model() -> WhisperModel:
     global _model
     if _model is None:
+        logger.info(
+            "Загрузка Whisper: model=%s, device=%s, compute_type=%s",
+            config.WHISPER_MODEL,
+            config.WHISPER_DEVICE,
+            config.WHISPER_COMPUTE_TYPE,
+        )
         _model = WhisperModel(
             config.WHISPER_MODEL,
             device=config.WHISPER_DEVICE,

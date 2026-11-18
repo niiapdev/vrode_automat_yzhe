@@ -1,24 +1,41 @@
 # VK Subtitles Bot
 
 VK-бот для автоматической обработки видео: скачивание, распознавание речи (Whisper), генерация субтитров и опциональная склейка с видео. Все задачи ставятся в персистентную SQLite-очередь и обрабатываются строго по одной (экономия CPU/RAM).
-
 ## Возможности
 
 - Принимает **любую ссылку** на видео (http/https) — мгновенно отвечает и ставит задачу в очередь
 - Очередь на **SQLite** (`jobs.sqlite3`) — переживает перезапуск бота, обработка строго последовательная
-- Распознавание речи через **faster-whisper** (модель `medium`, CPU, int8)
+- Распознавание речи через **faster-whisper** (модель `medium`, GPU CUDA, `float16`)
 - Точная синхронизация субтитров (`word_timestamps`) — без «плавающих» таймкодов
 - Готовые файлы сохраняются в `video_subtitled/` **навсегда** (без автоудаления)
 - Команда `/cancel` отменяет все задачи пользователя в очереди
 
 ## Установка
 
-```bash
+Нужен **Python 3.12** (не 3.15: для части зависимостей пока нет совместимых wheel-пакетов).
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Дополнительно нужен бинарник **ffmpeg** в PATH:
+`requirements.txt` для Windows дополнительно ставит CUDA 12-библиотеки
+(`nvidia-cublas-cu12`, `nvidia-cudnn-cu12`, `nvidia-cuda-runtime-cu12`,
+`nvidia-cuda-nvrtc-cu12`) и закрепляет `av==18.1.0`, совместимый с
+`faster-whisper 1.2.1`.
+
+Дополнительно нужен бинарник **ffmpeg** в PATH (для склейки/вшивания субтитров):
 - Windows: `winget install ffmpeg` или `choco install ffmpeg`
+
+Проверка CUDA перед первым запуском:
+
+```powershell
+python -c "import translator, ctranslate2, config; print(config.WHISPER_DEVICE, config.WHISPER_COMPUTE_TYPE, ctranslate2.get_cuda_device_count(), ctranslate2.get_supported_compute_types('cuda'))"
+```
+
+Ожидаемо: `cuda float16 1 {... 'float16' ...}`.
 
 ## Настройка токена
 
@@ -74,8 +91,8 @@ vk-subtitles-bot/
 | Параметр | Значение по умолчанию | Описание |
 |---|---|---|
 | `WHISPER_MODEL` | `medium` | модель whisper (small/medium/large-v3…) |
-| `WHISPER_DEVICE` | `cpu` | устройство (cpu/cuda) |
-| `WHISPER_COMPUTE_TYPE` | `int8` | точность вычислений |
+| `WHISPER_DEVICE` | `cuda` | устройство: `cuda` (GPU) или `cpu` |
+| `WHISPER_COMPUTE_TYPE` | `float16` | точность вычислений; на GPU — `float16`, на CPU — `int8` |
 | `WHISPER_WORD_TIMESTAMPS` | `True` | точное выравнивание таймкодов по словам |
 | `SUBTITLE_SHIFT_SECONDS` | `0.0` | ручной сдвиг субтитров (например `0.3` — позже) |
 | `BURN_SUBTITLES` | `True` | вшивать субтитры в кадр; `False` — мягкие (поток mov_text) |
@@ -85,5 +102,6 @@ vk-subtitles-bot/
 ## Полезное
 
 - `jobs.sqlite3`: статусы задач — `queued / processing / done / failed / cancelled`
-- Модель Whisper скачивается автоматически при первом запуске (~1.5 ГБ для `medium`)
+- Модель Whisper скачивается автоматически при первом запуске (~1.5 ГБ для `medium`) в кэш Hugging Face
+- На RTX 3050 8 ГБ модель `medium` в `float16` занимает ~2.5 ГБ видеопамяти
 - ffmpeg-склейка работает с неограниченной длиной видео (stream-copy / перекодирование зависит от `BURN_SUBTITLES`)
