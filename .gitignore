@@ -3,12 +3,12 @@ __pycache__/
 *.pyc
 
 # данные — пересоздаются при старте, в git не нужны
-video_for_whisper/
-video_subtitled/
-jobs.sqlite3
-local_out/
-local_stage/
-local_videos/
+/video_for_whisper/
+/video_subtitled/
+/jobs.sqlite3
+/local_out/
+/local_stage/
+/local_videos/
 
 
 

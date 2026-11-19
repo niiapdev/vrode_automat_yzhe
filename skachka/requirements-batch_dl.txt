@@ -1,0 +1,6 @@
+# Минимальные зависимости batch_dl.py (Python >= 3.9).
+# Устанавливается командой:
+#   python -m pip install -r skachka/requirements-batch_dl.txt
+requests>=2.31,<3
+anime-dl-core==0.5.1
+yt-dlp>=2024.1.1

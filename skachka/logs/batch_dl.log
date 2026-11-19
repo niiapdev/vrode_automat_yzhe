@@ -1,0 +1,815 @@
+2026-11-14 11:48:07 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:07 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:48:07 INFO     batch_dl: [############-------------]  50.0%  0:05  / 0:10
+2026-11-14 11:48:07 INFO     batch_dl: [#########################] 100.0%  0:10  / 0:10  1.2 KiB
+2026-11-14 11:48:07 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из C:\Users\67\AppData\Local\Temp\batch_dl_test_4vzvybt7\tasks.txt
+2026-11-14 11:48:07 ERROR    batch_dl: tasks.txt:1: Ссылка должна начинаться с http(s):// или cvh:: 'ftp://bad'
+2026-11-14 11:48:07 INFO     batch_dl: Задач загружено: 0 (ошибок: 1) из C:\Users\67\AppData\Local\Temp\batch_dl_test_4vzvybt7\tasks.txt
+2026-11-14 11:48:15 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:15 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:48:15 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:15 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:48:15 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:15 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:48:15 WARNING  batch_dl: Текущий Python не видит зависимости: ModuleNotFoundError: No module named 'requests'
+2026-11-14 11:48:15 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 11:48:15 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 11:48:16 INFO     batch_dl: Найден рабочий интерпретатор: D:\for-move\.venv\Scripts\python.exe (2.34.2 0.5.1)
+2026-11-14 11:48:17 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 11:48:17 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 11:48:35 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:35 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:48:35 WARNING  batch_dl: Текущий Python не видит зависимости: ModuleNotFoundError: No module named 'requests'
+2026-11-14 11:48:36 INFO     batch_dl: Найден рабочий интерпретатор: D:\for-move\.venv\Scripts\python.exe (2.34.2 0.5.1)
+2026-11-14 11:48:36 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:36 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:48:37 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 11:48:37 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 11:48:42 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:42 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:48:42 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 11:48:42 INFO     batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe
+2026-11-14 11:48:42 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 11:48:42 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 11:48:42 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 11:48:42 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:48:42 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 11:48:42 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 11:48:42 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 11:48:42 INFO     batch_dl: 
+2026-11-14 11:48:42 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 11:48:44 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 11:48:44 INFO     batch_dl:     серии переопределены аргументом --episodes: 1
+2026-11-14 11:48:44 INFO     batch_dl:     ограничение --limit-episodes: первые 1
+2026-11-14 11:48:44 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 11:48:44 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 11:48:44 INFO     batch_dl:     [dry-run] C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794732524901&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=ZephuR9FTrg&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c … Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 11:48:44 INFO     batch_dl: 
+2026-11-14 11:48:44 INFO     batch_dl: Итог: скачано 0, пропущено 0, dry-run 1, ошибок 0
+2026-11-14 11:56:52 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:56:52 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:56:52 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:56:52 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:56:52 INFO     batch_dl: [############-------------]  50.0%  0:05  / 0:10
+2026-11-14 11:56:52 INFO     batch_dl: [#########################] 100.0%  0:10  / 0:10  1.2 KiB
+2026-11-14 11:56:52 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из C:\Users\67\AppData\Local\Temp\batch_dl_test_8aaoe9iw\tasks.txt
+2026-11-14 11:56:52 ERROR    batch_dl: tasks.txt:1: Ссылка должна начинаться с http(s):// или cvh:: 'ftp://bad'
+2026-11-14 11:56:52 INFO     batch_dl: Задач загружено: 0 (ошибок: 1) из C:\Users\67\AppData\Local\Temp\batch_dl_test_8aaoe9iw\tasks.txt
+2026-11-14 11:56:52 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 11:56:52 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 11:57:42 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:57:42 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:57:43 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 11:57:43 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 11:59:12 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 11:59:12 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 11:59:12 INFO     batch_dl: [############-------------]  50.0%  0:05  / 0:10
+2026-11-14 11:59:12 INFO     batch_dl: [#########################] 100.0%  0:10  / 0:10  1.2 KiB
+2026-11-14 11:59:12 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из C:\Users\67\AppData\Local\Temp\batch_dl_test_gsjcpt21\tasks.txt
+2026-11-14 11:59:12 ERROR    batch_dl: tasks.txt:1: Ссылка должна начинаться с http(s):// или cvh:: 'ftp://bad'
+2026-11-14 11:59:12 INFO     batch_dl: Задач загружено: 0 (ошибок: 1) из C:\Users\67\AppData\Local\Temp\batch_dl_test_gsjcpt21\tasks.txt
+2026-11-14 12:00:08 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:00:08 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:00:08 INFO     batch_dl: [############-------------]  50.0%  0:05  / 0:10
+2026-11-14 12:00:08 INFO     batch_dl: [#########################] 100.0%  0:10  / 0:10  1.2 KiB
+2026-11-14 12:00:08 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из C:\Users\67\AppData\Local\Temp\batch_dl_test_9y_lm2ua\tasks.txt
+2026-11-14 12:00:08 ERROR    batch_dl: tasks.txt:1: Ссылка должна начинаться с http(s):// или cvh:: 'ftp://bad'
+2026-11-14 12:00:08 INFO     batch_dl: Задач загружено: 0 (ошибок: 1) из C:\Users\67\AppData\Local\Temp\batch_dl_test_9y_lm2ua\tasks.txt
+2026-11-14 12:00:15 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:00:15 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:00:15 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 12:00:15 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 12:01:16 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:01:16 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:01:16 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 12:01:16 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 12:01:42 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:01:42 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:01:42 INFO     batch_dl: [############-------------]  50.0%  0:05  / 0:10
+2026-11-14 12:01:42 INFO     batch_dl: [#########################] 100.0%  0:10  / 0:10  1.2 KiB
+2026-11-14 12:01:42 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из C:\Users\67\AppData\Local\Temp\batch_dl_test_dw6anf44\tasks.txt
+2026-11-14 12:01:42 ERROR    batch_dl: tasks.txt:1: Ссылка должна начинаться с http(s):// или cvh:: 'ftp://bad'
+2026-11-14 12:01:42 INFO     batch_dl: Задач загружено: 0 (ошибок: 1) из C:\Users\67\AppData\Local\Temp\batch_dl_test_dw6anf44\tasks.txt
+2026-11-14 12:12:15 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:12:15 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:12:16 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 12:12:16 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 12:12:17 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:12:17 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:12:17 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 12:12:17 INFO     batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe
+2026-11-14 12:12:17 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 12:12:17 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 12:12:17 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 12:12:17 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:12:17 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 12:12:17 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 12:12:17 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 12:12:17 INFO     batch_dl: 
+2026-11-14 12:12:17 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 12:12:19 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 12:12:19 INFO     batch_dl:     серии переопределены аргументом --episodes: 1
+2026-11-14 12:12:19 INFO     batch_dl:     ограничение --limit-episodes: первые 1
+2026-11-14 12:12:19 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 12:12:19 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 12:12:19 INFO     batch_dl:     [dry-run] C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c … Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 12:12:19 INFO     batch_dl: 
+2026-11-14 12:12:19 INFO     batch_dl: Итог: скачано 0, пропущено 0, dry-run 1, ошибок 0
+2026-11-14 12:12:20 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:12:20 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:12:21 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 12:12:21 INFO     batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe
+2026-11-14 12:12:21 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 12:12:21 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 12:12:21 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 12:12:21 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:12:21 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 12:12:21 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 12:12:21 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 12:12:21 INFO     batch_dl: 
+2026-11-14 12:12:21 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 12:12:22 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 12:12:22 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 12:12:23 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 12:12:23 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:12:23 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 12:12:23 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:12:23 DEBUG    batch_dl: ffmpeg: [in#0 @ 000002ceb0be2080] Error opening input: I/O error
+2026-11-14 12:12:23 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 12:12:23 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:23 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000002ceb0be6780] Peer certificate failed verification
+[in#0 @ 000002ceb0be2080] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:26 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 12:12:26 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:12:26 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000028146cc1e80] Error opening input: I/O error
+2026-11-14 12:12:26 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 12:12:26 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:26 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000028146cc6540] Peer certificate failed verification
+[in#0 @ 0000028146cc1e80] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:32 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 12:12:32 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:12:32 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000029d9d95eec0] Error opening input: I/O error
+2026-11-14 12:12:32 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 12:12:32 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:32 WARNING  batch_dl:     попытка 3/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000029d9d977a80] Peer certificate failed verification
+[in#0 @ 0000029d9d95eec0] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:32 ERROR    batch_dl:     [ep 01] ошибка: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000029d9d977a80] Peer certificate failed verification
+[in#0 @ 0000029d9d95eec0] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:32 DEBUG    batch_dl: Подробности
+Traceback (most recent call last):
+  File "D:\for-move\skachka\batch_dl.py", line 1466, in fetch
+    saved = save(
+            ^^^^^
+  File "D:\for-move\skachka\batch_dl.py", line 1357, in save
+    raise last_error
+  File "D:\for-move\skachka\batch_dl.py", line 1327, in save
+    _run_ffmpeg(command, final.name, getattr(result, "duration", None))
+  File "D:\for-move\skachka\batch_dl.py", line 1184, in _run_ffmpeg
+    raise DownloadError(_ffmpeg_error_message(returncode, tail))
+DownloadError: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000029d9d977a80] Peer certificate failed verification
+[in#0 @ 0000029d9d95eec0] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794733939940&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=dbODpCvmP0Q&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:32 INFO     batch_dl:     [ep 02] CVH / AnimeVost
+2026-11-14 12:12:33 INFO     batch_dl:     поток: cvh 1080p (1080p)
+2026-11-14 12:12:33 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:12:33 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 12:12:33 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:12:33 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000020db3cd2500] Error opening input: I/O error
+2026-11-14 12:12:33 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 12:12:33 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:33 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000020db3cd6c00] Peer certificate failed verification
+[in#0 @ 0000020db3cd2500] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:36 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 12:12:36 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:12:36 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000022337781f00] Error opening input: I/O error
+2026-11-14 12:12:36 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 12:12:36 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:36 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000022337786580] Peer certificate failed verification
+[in#0 @ 0000022337781f00] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:42 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 12:12:42 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:12:42 DEBUG    batch_dl: ffmpeg: [in#0 @ 00000252a196e780] Error opening input: I/O error
+2026-11-14 12:12:42 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 12:12:42 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:42 WARNING  batch_dl:     попытка 3/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 00000252a1977c40] Peer certificate failed verification
+[in#0 @ 00000252a196e780] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:42 ERROR    batch_dl:     [ep 02] ошибка: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 00000252a1977c40] Peer certificate failed verification
+[in#0 @ 00000252a196e780] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:42 DEBUG    batch_dl: Подробности
+Traceback (most recent call last):
+  File "D:\for-move\skachka\batch_dl.py", line 1466, in fetch
+    saved = save(
+            ^^^^^
+  File "D:\for-move\skachka\batch_dl.py", line 1357, in save
+    raise last_error
+  File "D:\for-move\skachka\batch_dl.py", line 1327, in save
+    _run_ffmpeg(command, final.name, getattr(result, "duration", None))
+  File "D:\for-move\skachka\batch_dl.py", line 1184, in _run_ffmpeg
+    raise DownloadError(_ffmpeg_error_message(returncode, tail))
+DownloadError: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 00000252a1977c40] Peer certificate failed verification
+[in#0 @ 00000252a196e780] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794733953382&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=_7pzEh4mzjs&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:42 INFO     batch_dl:     [ep 03] CVH / AnimeVost
+2026-11-14 12:12:43 INFO     batch_dl:     поток: cvh 1080p (1080p)
+2026-11-14 12:12:43 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=3&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4.part
+2026-11-14 12:12:43 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4
+2026-11-14 12:12:43 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=3&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4.part
+2026-11-14 12:12:43 DEBUG    batch_dl: ffmpeg: [in#0 @ 000002769dbc3100] Error opening input: I/O error
+2026-11-14 12:12:43 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+2026-11-14 12:12:43 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:43 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000002769db32380] Peer certificate failed verification
+[in#0 @ 000002769dbc3100] Error opening input: I/O error
+Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:46 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4
+2026-11-14 12:12:46 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=3&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4.part
+2026-11-14 12:12:46 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001fd90cfefc0] Error opening input: I/O error
+2026-11-14 12:12:46 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+2026-11-14 12:12:46 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:46 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001fd90d18bc0] Peer certificate failed verification
+[in#0 @ 000001fd90cfefc0] Error opening input: I/O error
+Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:52 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4
+2026-11-14 12:12:52 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=3&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4.part
+2026-11-14 12:12:52 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000026735a28f40] Error opening input: I/O error
+2026-11-14 12:12:52 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+2026-11-14 12:12:52 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:52 WARNING  batch_dl:     попытка 3/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000026735a2d680] Peer certificate failed verification
+[in#0 @ 0000026735a28f40] Error opening input: I/O error
+Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:52 ERROR    batch_dl:     [ep 03] ошибка: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000026735a2d680] Peer certificate failed verification
+[in#0 @ 0000026735a28f40] Error opening input: I/O error
+Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:52 DEBUG    batch_dl: Подробности
+Traceback (most recent call last):
+  File "D:\for-move\skachka\batch_dl.py", line 1466, in fetch
+    saved = save(
+            ^^^^^
+  File "D:\for-move\skachka\batch_dl.py", line 1357, in save
+    raise last_error
+  File "D:\for-move\skachka\batch_dl.py", line 1327, in save
+    _run_ffmpeg(command, final.name, getattr(result, "duration", None))
+  File "D:\for-move\skachka\batch_dl.py", line 1184, in _run_ffmpeg
+    raise DownloadError(_ffmpeg_error_message(returncode, tail))
+DownloadError: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000026735a2d680] Peer certificate failed verification
+[in#0 @ 0000026735a28f40] Error opening input: I/O error
+Error opening input file https://vd631.okcdn.ru/?expires=1794733963486&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=0yFhbMJq8r4&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:52 INFO     batch_dl:     [ep 04] CVH / AnimeVost
+2026-11-14 12:12:53 INFO     batch_dl:     поток: cvh 1080p (1080p)
+2026-11-14 12:12:53 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=4&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 04 [AnimeVost].mp4.part
+2026-11-14 12:12:53 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 04 [AnimeVost].mp4
+2026-11-14 12:12:53 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=4&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 04 [AnimeVost].mp4.part
+2026-11-14 12:12:53 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000026ce3971000] Error opening input: I/O error
+2026-11-14 12:12:53 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+2026-11-14 12:12:53 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:53 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000026ce3975b00] Peer certificate failed verification
+[in#0 @ 0000026ce3971000] Error opening input: I/O error
+Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:12:56 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 04 [AnimeVost].mp4
+2026-11-14 12:12:56 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=4&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 04 [AnimeVost].mp4.part
+2026-11-14 12:12:56 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001969eba1b00] Error opening input: I/O error
+2026-11-14 12:12:56 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+2026-11-14 12:12:56 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:12:56 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001969eba6180] Peer certificate failed verification
+[in#0 @ 000001969eba1b00] Error opening input: I/O error
+Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:13:02 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 04 [AnimeVost].mp4
+2026-11-14 12:13:02 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=4&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 04 [AnimeVost].mp4.part
+2026-11-14 12:13:03 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000028b2c8c6380] Error opening input: I/O error
+2026-11-14 12:13:03 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+2026-11-14 12:13:03 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:13:03 WARNING  batch_dl:     попытка 3/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000028b2c8caa80] Peer certificate failed verification
+[in#0 @ 0000028b2c8c6380] Error opening input: I/O error
+Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:13:03 ERROR    batch_dl:     [ep 04] ошибка: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000028b2c8caa80] Peer certificate failed verification
+[in#0 @ 0000028b2c8c6380] Error opening input: I/O error
+Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:13:03 DEBUG    batch_dl: Подробности
+Traceback (most recent call last):
+  File "D:\for-move\skachka\batch_dl.py", line 1466, in fetch
+    saved = save(
+            ^^^^^
+  File "D:\for-move\skachka\batch_dl.py", line 1357, in save
+    raise last_error
+  File "D:\for-move\skachka\batch_dl.py", line 1327, in save
+    _run_ffmpeg(command, final.name, getattr(result, "duration", None))
+  File "D:\for-move\skachka\batch_dl.py", line 1184, in _run_ffmpeg
+    raise DownloadError(_ffmpeg_error_message(returncode, tail))
+DownloadError: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000028b2c8caa80] Peer certificate failed verification
+[in#0 @ 0000028b2c8c6380] Error opening input: I/O error
+Error opening input file https://vd479.okcdn.ru/?expires=1794733973748&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.94&type=5&sig=tBeerufZJzk&ct=0&urls=185.226.55.48&clientType=46&zs=13&id=18440670218800&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:13:03 INFO     batch_dl:     [ep 05] CVH / AnimeVost
+2026-11-14 12:13:03 INFO     batch_dl:     поток: cvh 1080p (1080p)
+2026-11-14 12:13:03 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=5&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd745.okcdn.ru/?expires=1794733983998&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.22&type=5&sig=pkpCDam2kDw&ct=0&urls=176.112.172.20&clientType=46&zs=13&id=18581855537712&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 05 [AnimeVost].mp4.part
+2026-11-14 12:13:03 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 05 [AnimeVost].mp4
+2026-11-14 12:13:03 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=5&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd745.okcdn.ru/?expires=1794733983998&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.22&type=5&sig=pkpCDam2kDw&ct=0&urls=176.112.172.20&clientType=46&zs=13&id=18581855537712&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 05 [AnimeVost].mp4.part
+2026-11-14 12:13:04 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001f2296d1fc0] Error opening input: I/O error
+2026-11-14 12:13:04 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd745.okcdn.ru/?expires=1794733983998&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.22&type=5&sig=pkpCDam2kDw&ct=0&urls=176.112.172.20&clientType=46&zs=13&id=18581855537712&rjr=8.
+2026-11-14 12:13:04 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:13:04 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001f2296d9300] Peer certificate failed verification
+[in#0 @ 000001f2296d1fc0] Error opening input: I/O error
+Error opening input file https://vd745.okcdn.ru/?expires=1794733983998&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.22&type=5&sig=pkpCDam2kDw&ct=0&urls=176.112.172.20&clientType=46&zs=13&id=18581855537712&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:13:07 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 05 [AnimeVost].mp4
+2026-11-14 12:13:07 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=5&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd745.okcdn.ru/?expires=1794733983998&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.22&type=5&sig=pkpCDam2kDw&ct=0&urls=176.112.172.20&clientType=46&zs=13&id=18581855537712&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 05 [AnimeVost].mp4.part
+2026-11-14 12:13:07 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001a9aefb0100] Error opening input: I/O error
+2026-11-14 12:13:07 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd745.okcdn.ru/?expires=1794733983998&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.22&type=5&sig=pkpCDam2kDw&ct=0&urls=176.112.172.20&clientType=46&zs=13&id=18581855537712&rjr=8.
+2026-11-14 12:13:07 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:13:07 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001a9aefb4800] Peer certificate failed verification
+[in#0 @ 000001a9aefb0100] Error opening input: I/O error
+Error opening input file https://vd745.okcdn.ru/?expires=1794733983998&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.22&type=5&sig=pkpCDam2kDw&ct=0&urls=176.112.172.20&clientType=46&zs=13&id=18581855537712&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:13:07 WARNING  batch_dl: Остановлено пользователем. Готовые файлы целы; .part удалены (если не --keep-partial).
+2026-11-14 12:20:23 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:20:23 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 12:20:23 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 12:20:24 INFO     batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe
+2026-11-14 12:20:24 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 12:20:24 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 12:20:24 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 12:20:24 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 12:20:24 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 12:20:24 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 12:20:24 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 12:20:24 INFO     batch_dl: 
+2026-11-14 12:20:24 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 12:20:25 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 12:20:25 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 12:20:25 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 12:20:25 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:20:25 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 12:20:25 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:20:26 DEBUG    batch_dl: ffmpeg: [in#0 @ 00000254b2250840] Error opening input: I/O error
+2026-11-14 12:20:26 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 12:20:26 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:20:26 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 00000254b2254f40] Peer certificate failed verification
+[in#0 @ 00000254b2250840] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:29 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 12:20:29 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:20:29 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001c2e0ceba00] Error opening input: I/O error
+2026-11-14 12:20:29 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 12:20:29 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:20:29 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001c2e0cec100] Peer certificate failed verification
+[in#0 @ 000001c2e0ceba00] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:35 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 12:20:35 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 12:20:35 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001efcdae0b80] Error opening input: I/O error
+2026-11-14 12:20:35 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 12:20:35 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:20:35 WARNING  batch_dl:     попытка 3/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001efcdae5280] Peer certificate failed verification
+[in#0 @ 000001efcdae0b80] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:35 ERROR    batch_dl:     [ep 01] ошибка: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001efcdae5280] Peer certificate failed verification
+[in#0 @ 000001efcdae0b80] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:35 DEBUG    batch_dl: Подробности
+Traceback (most recent call last):
+  File "D:\for-move\skachka\batch_dl.py", line 1466, in fetch
+    saved = save(
+            ^^^^^
+  File "D:\for-move\skachka\batch_dl.py", line 1357, in save
+    raise last_error
+  File "D:\for-move\skachka\batch_dl.py", line 1327, in save
+    _run_ffmpeg(command, final.name, getattr(result, "duration", None))
+  File "D:\for-move\skachka\batch_dl.py", line 1184, in _run_ffmpeg
+    raise DownloadError(_ffmpeg_error_message(returncode, tail))
+DownloadError: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001efcdae5280] Peer certificate failed verification
+[in#0 @ 000001efcdae0b80] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794734426015&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=H8YUmb12uwM&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:35 INFO     batch_dl:     [ep 02] CVH / AnimeVost
+2026-11-14 12:20:35 INFO     batch_dl:     поток: cvh 1080p (1080p)
+2026-11-14 12:20:35 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:20:35 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 12:20:35 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:20:36 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000018925720300] Error opening input: I/O error
+2026-11-14 12:20:36 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 12:20:36 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:20:36 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000018925727a00] Peer certificate failed verification
+[in#0 @ 0000018925720300] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:39 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 12:20:39 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:20:39 DEBUG    batch_dl: ffmpeg: [in#0 @ 00000229b68bedc0] Error opening input: I/O error
+2026-11-14 12:20:39 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 12:20:39 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:20:39 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 00000229b696a580] Peer certificate failed verification
+[in#0 @ 00000229b68bedc0] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:45 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 12:20:45 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 12:20:45 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000024fbae6d640] Error opening input: I/O error
+2026-11-14 12:20:45 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 12:20:45 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:20:45 WARNING  batch_dl:     попытка 3/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000024fbaf15340] Peer certificate failed verification
+[in#0 @ 0000024fbae6d640] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:45 ERROR    batch_dl:     [ep 02] ошибка: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000024fbaf15340] Peer certificate failed verification
+[in#0 @ 0000024fbae6d640] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:45 DEBUG    batch_dl: Подробности
+Traceback (most recent call last):
+  File "D:\for-move\skachka\batch_dl.py", line 1466, in fetch
+    saved = save(
+            ^^^^^
+  File "D:\for-move\skachka\batch_dl.py", line 1357, in save
+    raise last_error
+  File "D:\for-move\skachka\batch_dl.py", line 1327, in save
+    _run_ffmpeg(command, final.name, getattr(result, "duration", None))
+  File "D:\for-move\skachka\batch_dl.py", line 1184, in _run_ffmpeg
+    raise DownloadError(_ffmpeg_error_message(returncode, tail))
+DownloadError: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000024fbaf15340] Peer certificate failed verification
+[in#0 @ 0000024fbae6d640] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794734436079&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=EDRxhWZ6VpA&ct=0&urls=176.112.172.18&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:45 INFO     batch_dl:     [ep 03] CVH / AnimeVost
+2026-11-14 12:20:46 INFO     batch_dl:     поток: cvh 1080p (1080p)
+2026-11-14 12:20:46 DEBUG    batch_dl: Команда: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=3&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd631.okcdn.ru/?expires=1794734446208&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=B-4R535IodA&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4.part
+2026-11-14 12:20:46 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4
+2026-11-14 12:20:46 DEBUG    batch_dl: ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=3&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd631.okcdn.ru/?expires=1794734446208&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=B-4R535IodA&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 03 [AnimeVost].mp4.part
+2026-11-14 12:20:46 DEBUG    batch_dl: ffmpeg: [in#0 @ 00000230ac8fce00] Error opening input: I/O error
+2026-11-14 12:20:46 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd631.okcdn.ru/?expires=1794734446208&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=B-4R535IodA&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+2026-11-14 12:20:46 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 12:20:46 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 00000230ac9a4080] Peer certificate failed verification
+[in#0 @ 00000230ac8fce00] Error opening input: I/O error
+Error opening input file https://vd631.okcdn.ru/?expires=1794734446208&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.180.203.28&type=5&sig=B-4R535IodA&ct=0&urls=178.237.23.84&clientType=46&zs=13&id=18301731408432&rjr=8.
+Error opening input files: I/O error
+2026-11-14 12:20:48 WARNING  batch_dl: Остановлено пользователем. Готовые файлы целы; .part удалены (если не --keep-partial).
+2026-11-14 19:11:44 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:11:44 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 19:11:46 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 19:11:47 INFO     batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe
+2026-11-14 19:11:47 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 19:11:48 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 19:11:48 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 19:11:48 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:11:48 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 19:11:48 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 19:11:48 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 19:11:48 INFO     batch_dl: 
+2026-11-14 19:11:48 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 19:11:49 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 19:11:49 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 19:11:50 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 19:11:50 DEBUG    batch_dl: Команда: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:11:50 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:11:50 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:11:50 DEBUG    batch_dl: ffmpeg: [in#0 @ 000002daad55e1c0] Error opening input: I/O error
+2026-11-14 19:11:50 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:11:50 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:11:50 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000002daad55e480] Peer certificate failed verification
+[in#0 @ 000002daad55e1c0] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:11:53 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:11:53 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:11:53 DEBUG    batch_dl: ffmpeg: [in#0 @ 000002217b4de440] Error opening input: I/O error
+2026-11-14 19:11:53 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:11:53 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:11:53 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000002217b58aac0] Peer certificate failed verification
+[in#0 @ 000002217b4de440] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:11:59 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:11:59 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:12:00 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000020b8015e300] Error opening input: I/O error
+2026-11-14 19:12:00 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:12:00 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:12:00 WARNING  batch_dl:     попытка 3/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000020b8020d240] Peer certificate failed verification
+[in#0 @ 0000020b8015e300] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:12:00 ERROR    batch_dl:     [ep 01] ошибка: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000020b8020d240] Peer certificate failed verification
+[in#0 @ 0000020b8015e300] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:12:00 DEBUG    batch_dl: Подробности
+Traceback (most recent call last):
+  File "D:\for-move\skachka\batch_dl.py", line 1466, in fetch
+    saved = save(
+            ^^^^^
+  File "D:\for-move\skachka\batch_dl.py", line 1357, in save
+    raise last_error
+  File "D:\for-move\skachka\batch_dl.py", line 1327, in save
+    _run_ffmpeg(command, final.name, getattr(result, "duration", None))
+  File "D:\for-move\skachka\batch_dl.py", line 1184, in _run_ffmpeg
+    raise DownloadError(_ffmpeg_error_message(returncode, tail))
+DownloadError: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000020b8020d240] Peer certificate failed verification
+[in#0 @ 0000020b8015e300] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:12:00 INFO     batch_dl:     [ep 02] CVH / AnimeVost
+2026-11-14 19:12:00 INFO     batch_dl:     поток: cvh 1080p (1080p)
+2026-11-14 19:12:00 DEBUG    batch_dl: Команда: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794759120659&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=7rLCtn6LnZM&ct=0&urls=185.226.55.42&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 19:12:00 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 19:12:00 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794759120659&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=7rLCtn6LnZM&ct=0&urls=185.226.55.42&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 19:12:00 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001767936e080] Error opening input: I/O error
+2026-11-14 19:12:00 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794759120659&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=7rLCtn6LnZM&ct=0&urls=185.226.55.42&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 19:12:00 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:12:00 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000017679418dc0] Peer certificate failed verification
+[in#0 @ 000001767936e080] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794759120659&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=7rLCtn6LnZM&ct=0&urls=185.226.55.42&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:12:03 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4
+2026-11-14 19:12:03 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=2&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd439.okcdn.ru/?expires=1794759120659&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=7rLCtn6LnZM&ct=0&urls=185.226.55.42&clientType=46&zs=13&id=18169297504816&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 02 [AnimeVost].mp4.part
+2026-11-14 19:12:04 DEBUG    batch_dl: ffmpeg: [in#0 @ 0000029b15f1f340] Error opening input: I/O error
+2026-11-14 19:12:04 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd439.okcdn.ru/?expires=1794759120659&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=7rLCtn6LnZM&ct=0&urls=185.226.55.42&clientType=46&zs=13&id=18169297504816&rjr=8.
+2026-11-14 19:12:04 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:12:04 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000029b15fc9c40] Peer certificate failed verification
+[in#0 @ 0000029b15f1f340] Error opening input: I/O error
+Error opening input file https://vd439.okcdn.ru/?expires=1794759120659&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=178.237.23.41&type=5&sig=7rLCtn6LnZM&ct=0&urls=185.226.55.42&clientType=46&zs=13&id=18169297504816&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:12:09 WARNING  batch_dl: Остановлено пользователем. Готовые файлы целы; .part удалены (если не --keep-partial).
+2026-11-14 19:12:28 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:12:28 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.12.10
+2026-11-14 19:12:28 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 19:12:28 INFO     batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe
+2026-11-14 19:12:28 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 19:12:28 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 19:12:28 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 19:12:28 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:12:28 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 19:12:28 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 19:12:28 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 19:12:28 INFO     batch_dl: 
+2026-11-14 19:12:28 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 19:12:29 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 19:12:29 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 19:12:30 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 19:12:30 DEBUG    batch_dl: Команда: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:12:30 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:12:30 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:12:30 DEBUG    batch_dl: ffmpeg: [in#0 @ 000002a1ce59c180] Error opening input: I/O error
+2026-11-14 19:12:30 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:12:30 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:12:30 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000002a1ce647ec0] Peer certificate failed verification
+[in#0 @ 000002a1ce59c180] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:12:33 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:12:33 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:12:33 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001f2fa1ecc40] Error opening input: I/O error
+2026-11-14 19:12:33 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:12:33 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:12:33 WARNING  batch_dl:     попытка 2/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001f2fa1ed040] Peer certificate failed verification
+[in#0 @ 000001f2fa1ecc40] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:12:36 WARNING  batch_dl: Остановлено пользователем. Готовые файлы целы; .part удалены (если не --keep-partial).
+2026-11-14 19:14:09 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:14:09 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.15.2
+2026-11-14 19:14:11 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 19:14:11 INFO     batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe
+2026-11-14 19:14:11 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 19:14:12 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 19:14:12 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 19:14:12 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:14:12 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 19:14:12 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 19:14:12 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 19:14:12 INFO     batch_dl: 
+2026-11-14 19:14:12 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 19:14:12 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 19:14:12 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 19:14:12 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 19:14:12 DEBUG    batch_dl: Команда: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794759252600&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=muuqdxVaPc8&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:14:12 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:14:12 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794759252600&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=muuqdxVaPc8&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:14:12 DEBUG    batch_dl: ffmpeg: [in#0 @ 000002059adde5c0] Error opening input: I/O error
+2026-11-14 19:14:12 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794759252600&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=muuqdxVaPc8&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:14:12 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:14:12 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000002059adf7ec0] Peer certificate failed verification
+[in#0 @ 000002059adde5c0] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794759252600&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=muuqdxVaPc8&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:14:15 WARNING  batch_dl: Остановлено пользователем. Готовые файлы целы; .part удалены (если не --keep-partial).
+2026-11-14 19:15:51 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:15:51 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.15.2
+2026-11-14 19:15:51 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 19:15:51 INFO     batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe
+2026-11-14 19:15:51 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 19:15:51 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 19:15:51 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 19:15:51 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:15:51 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 19:15:51 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 19:15:51 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 19:15:51 INFO     batch_dl: 
+2026-11-14 19:15:51 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 19:15:52 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 19:15:52 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 19:15:52 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 19:15:52 DEBUG    batch_dl: Команда: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:15:52 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:15:52 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:15:52 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001778296e380] Error opening input: I/O error
+2026-11-14 19:15:52 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:15:52 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:15:52 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 0000017782a0a5c0] Peer certificate failed verification
+[in#0 @ 000001778296e380] Error opening input: I/O error
+Error opening input file https://vd351.okcdn.ru/?expires=1794759110339&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=95.163.35.82&type=3&sig=H4UmWe8sXRo&ct=0&urls=185.226.55.108&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:15:54 WARNING  batch_dl: Остановлено пользователем. Готовые файлы целы; .part удалены (если не --keep-partial).
+2026-11-14 19:23:57 DEBUG    batch_dl: Лог-файл: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:23:57 DEBUG    batch_dl: batch_dl 2.0.0, Python 3.15.2
+2026-11-14 19:23:57 DEBUG    batch_dl: Зависимости: requests 2.34.2, anime-dl-core 0.5.1
+2026-11-14 19:23:57 INFO     batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe
+2026-11-14 19:23:57 DEBUG    batch_dl: ffmpeg version: ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+2026-11-14 19:23:57 INFO     batch_dl: Задачи: D:\for-move\skachka\tasks.txt
+2026-11-14 19:23:57 INFO     batch_dl: Загрузки: D:\for-move\skachka\downloads
+2026-11-14 19:23:57 INFO     batch_dl: Лог: D:\for-move\skachka\logs\batch_dl.log
+2026-11-14 19:23:57 INFO     batch_dl: Manifest: D:\for-move\skachka\downloads\manifest.jsonl
+2026-11-14 19:23:57 INFO     batch_dl: Токен YummyAnime: найден (16 символов)
+2026-11-14 19:23:57 INFO     batch_dl: Задач загружено: 1 (ошибок: 0) из D:\for-move\skachka\tasks.txt
+2026-11-14 19:23:57 INFO     batch_dl: 
+2026-11-14 19:23:57 INFO     batch_dl: === [1/1] [2] https://yummyani.org/anime/detektiv-uzhe-mertv-2 | серии все | AnimeVost | CVH | 1080p ===
+2026-11-14 19:23:58 INFO     batch_dl:     «Детектив уже мертв 2», серии 1..6 (доступно 6)
+2026-11-14 19:23:58 INFO     batch_dl:     [ep 01] CVH / AnimeVost
+2026-11-14 19:23:58 INFO     batch_dl:     поток: cvh 720p (720p)
+2026-11-14 19:23:58 DEBUG    batch_dl: Команда: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794759838415&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=odPkimumB28&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:23:58 INFO     batch_dl:     скачивание: D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4
+2026-11-14 19:23:58 DEBUG    batch_dl: ffmpeg: C:\Users\67\scoop\shims\ffmpeg.exe -headers User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Referer: https://ru.yummyani.me/iframeCVH.html?dubbing_code=AnimeVost&anime_id=52480&episode=1&dubbing=%D0%9E%D0%B7%D0%B2%D1%83%D1%87%D0%BA%D0%B0+AnimeVost
+ -i https://vd587.okcdn.ru/?expires=1794759838415&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=odPkimumB28&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8 -c copy -y -nostats -loglevel warning -progress pipe:1 -f mp4 -movflags +faststart D:\for-move\skachka\downloads\Детектив уже мертв 2\Детектив уже мертв 2 - 01 [AnimeVost].mp4.part
+2026-11-14 19:23:58 DEBUG    batch_dl: ffmpeg: [in#0 @ 000001579866dfc0] Error opening input: I/O error
+2026-11-14 19:23:58 DEBUG    batch_dl: ffmpeg: Error opening input file https://vd587.okcdn.ru/?expires=1794759838415&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=odPkimumB28&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+2026-11-14 19:23:58 DEBUG    batch_dl: ffmpeg: Error opening input files: I/O error
+2026-11-14 19:23:58 WARNING  batch_dl:     попытка 1/3 не удалась: ffmpeg завершился с ошибкой. Код 4294967291. Последние строки ffmpeg:
+[tls @ 000001579871ac00] Peer certificate failed verification
+[in#0 @ 000001579866dfc0] Error opening input: I/O error
+Error opening input file https://vd587.okcdn.ru/?expires=1794759838415&srcIp=194.85.210.31&pr=90&srcAg=CHROME&rjz=13&ms=185.226.55.108&type=3&sig=odPkimumB28&ct=0&urls=95.163.35.82&clientType=46&zs=13&id=20826400295647&rjr=8.
+Error opening input files: I/O error
+2026-11-14 19:24:01 WARNING  batch_dl: Остановлено пользователем. Готовые файлы целы; .part удалены (если не --keep-partial).

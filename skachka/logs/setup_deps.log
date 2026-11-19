@@ -1,0 +1,264 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261114115242
+Имя пользователя: DESKTOP-F56T24U\67
+Запуск от имени пользователя: DESKTOP-F56T24U\67
+Имя конфигурации: 
+Компьютер: DESKTOP-F56T24U (Microsoft Windows NT 10.0.19044.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\for-move\skachka\setup_deps.ps1 -CheckOnly -NoElevate
+ИД процесса: 6680
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== batch_dl: установка зависимостей ===
+Проект : D:\for-move
+Скрипт : D:\for-move\skachka
+Режим  : только проверка
+PS>TerminatingError(python.exe): "Выполнение команды остановлено, так как привилегированной переменной "ErrorActionPreference" или общему параметру присвоено значение Stop:   File "<string>", line 1"
+>> TerminatingError(python.exe): "Выполнение команды остановлено, так как привилегированной переменной "ErrorActionPreference" или общему параметру присвоено значение Stop:   File "<string>", line 1"
+>> TerminatingError(python3.exe): "Выполнение команды остановлено, так как привилегированной переменной "ErrorActionPreference" или общему параметру присвоено значение Stop:   File "<string>", line 1"
+  [ERROR] Python 3.9+ не найден
+Установите: winget install Python.Python.3.12
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261114115244
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261114115322
+Имя пользователя: DESKTOP-F56T24U\67
+Запуск от имени пользователя: DESKTOP-F56T24U\67
+Имя конфигурации: 
+Компьютер: DESKTOP-F56T24U (Microsoft Windows NT 10.0.19044.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\for-move\skachka\setup_deps.ps1 -CheckOnly -NoElevate
+ИД процесса: 10120
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== batch_dl: установка зависимостей ===
+Проект : D:\for-move
+Скрипт : D:\for-move\skachka
+Режим  : только проверка
+  [OK] Python 3.12.10: D:\for-move\.venv\Scripts\python.exe
+  [OK] .venv: D:\for-move\.venv\Scripts\python.exe
+  [OK] Python-пакеты уже установлены
+  [OK] ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe
+         ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  [OK] ffprobe: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffprobe.exe
+  [OK] кодек libx264 доступен (нужен пайплайну)
+  [OK] Visual C++ Redistributable x64 установлен
+
+=== ГОТОВО ===
+Проверка:
+  & "D:\for-move\.venv\Scripts\python.exe" "D:\for-move\skachka\batch_dl.py" --check
+Запуск:
+  & "D:\for-move\.venv\Scripts\python.exe" "D:\for-move\skachka\batch_dl.py"
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261114115327
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261114115333
+Имя пользователя: DESKTOP-F56T24U\67
+Запуск от имени пользователя: DESKTOP-F56T24U\67
+Имя конфигурации: 
+Компьютер: DESKTOP-F56T24U (Microsoft Windows NT 10.0.19044.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\for-move\skachka\setup_deps.ps1 -NoElevate
+ИД процесса: 15516
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== batch_dl: установка зависимостей ===
+Проект : D:\for-move
+Скрипт : D:\for-move\skachka
+Режим  : установка
+  [OK] Python 3.12.10: D:\for-move\.venv\Scripts\python.exe
+  [OK] .venv: D:\for-move\.venv\Scripts\python.exe
+  [OK] Python-пакеты уже установлены
+  [OK] ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe
+         ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  [OK] ffprobe: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffprobe.exe
+  [OK] кодек libx264 доступен (нужен пайплайну)
+
+==> Visual C++ Redistributable x64
+  [OK] уже установлен
+
+==> Длинные пути Windows
+  [WARN] нет прав администратора; включите LongPathsEnabled вручную
+
+=== ГОТОВО ===
+Проверка:
+  & "D:\for-move\.venv\Scripts\python.exe" "D:\for-move\skachka\batch_dl.py" --check
+Запуск:
+  & "D:\for-move\.venv\Scripts\python.exe" "D:\for-move\skachka\batch_dl.py"
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261114115336
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261114115740
+Имя пользователя: DESKTOP-F56T24U\67
+Запуск от имени пользователя: DESKTOP-F56T24U\67
+Имя конфигурации: 
+Компьютер: DESKTOP-F56T24U (Microsoft Windows NT 10.0.19044.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\for-move\skachka\setup_deps.ps1 -CheckOnly
+ИД процесса: 17024
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== batch_dl: установка зависимостей ===
+Проект : D:\for-move
+Скрипт : D:\for-move\skachka
+Режим  : только проверка
+  [OK] Python 3.12.10: D:\for-move\.venv\Scripts\python.exe
+  [OK] .venv: D:\for-move\.venv\Scripts\python.exe
+  [OK] Python-пакеты уже установлены
+  [OK] ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe
+         ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  [OK] ffprobe: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffprobe.exe
+  [OK] кодек libx264 доступен (нужен пайплайну)
+  [OK] Visual C++ Redistributable x64 установлен
+
+=== ГОТОВО ===
+Проверка:
+  & "D:\for-move\.venv\Scripts\python.exe" "D:\for-move\skachka\batch_dl.py" --check
+Запуск:
+  & "D:\for-move\.venv\Scripts\python.exe" "D:\for-move\skachka\batch_dl.py"
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261114115743
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261114115833
+Имя пользователя: DESKTOP-F56T24U\67
+Запуск от имени пользователя: DESKTOP-F56T24U\67
+Имя конфигурации: 
+Компьютер: DESKTOP-F56T24U (Microsoft Windows NT 10.0.19044.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\for-move\skachka\setup_deps.ps1 -CheckOnly
+ИД процесса: 6288
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== batch_dl: установка зависимостей ===
+Проект : D:\for-move
+Скрипт : D:\for-move\skachka
+Режим  : только проверка
+  [OK] Python 3.12.10: D:\for-move\.venv\Scripts\python.exe
+  [OK] .venv: D:\for-move\.venv\Scripts\python.exe
+  [OK] Python-пакеты уже установлены
+  [OK] ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe
+         ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  [OK] ffprobe: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffprobe.exe
+  [OK] кодек libx264 доступен (нужен пайплайну)
+  [OK] Visual C++ Redistributable x64 установлен
+
+=== ПРОВЕРКА ЗАВЕРШЕНА: ВСЁ В ПОРЯДКЕ ===
+Установка не требуется.
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261114115836
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261114120013
+Имя пользователя: DESKTOP-F56T24U\67
+Запуск от имени пользователя: DESKTOP-F56T24U\67
+Имя конфигурации: 
+Компьютер: DESKTOP-F56T24U (Microsoft Windows NT 10.0.19044.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\for-move\skachka\setup_deps.ps1 -CheckOnly
+ИД процесса: 8544
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== batch_dl: установка зависимостей ===
+Проект : D:\for-move
+Скрипт : D:\for-move\skachka
+Режим  : только проверка
+  [OK] Python 3.12.10: D:\for-move\.venv\Scripts\python.exe
+  [OK] .venv: D:\for-move\.venv\Scripts\python.exe
+  [OK] Python-пакеты уже установлены
+  [OK] ffmpeg: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe
+         ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  [OK] ffprobe: C:\Users\67\AppData\Local\Microsoft\WinGet\Links\ffprobe.exe
+  [OK] кодек libx264 доступен (нужен пайплайну)
+  [OK] Visual C++ Redistributable x64 установлен
+
+=== ПРОВЕРКА ЗАВЕРШЕНА: ВСЁ В ПОРЯДКЕ ===
+Установка не требуется.
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261114120015
+**********************
+[33m  [WARN] sudo не найден; системные пакеты можно установить только от root[0m
+[36m==> === batch_dl: установка зависимостей ===[0m
+Проект : /d/for-move
+Скрипт : /d/for-move/skachka
+Режим  : установка
+[32m  [OK] Python: /c/Users/67/scoop/shims/python3 (3.15.2)[0m
+[36m==> Создаю .venv[0m
+[32m  [OK] ffmpeg: /c/Users/67/scoop/shims/ffmpeg[0m
+ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+[32m  [OK] ffprobe: /c/Users/67/scoop/shims/ffprobe[0m
+[32m  [OK] кодек libx264 доступен (нужен пайплайну)[0m
+
+=== ГОТОВО ===
+Проверка:
+  "/d/for-move/.venv/bin/python" "/d/for-move/skachka/batch_dl.py" --check
+Запуск:
+  "/d/for-move/.venv/bin/python" "/d/for-move/skachka/batch_dl.py"
+[33m  [WARN] sudo не найден; системные пакеты можно установить только от root[0m
+[36m==> === batch_dl: установка зависимостей ===[0m
+Проект : /d/for-move
+Скрипт : /d/for-move/skachka
+Режим  : установка
+[32m  [OK] Python: /c/Users/67/scoop/shims/python3 (3.15.2)[0m
+[36m==> Создаю .venv[0m
+[32m  [OK] ffmpeg: /c/Users/67/scoop/shims/ffmpeg[0m
+ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+[32m  [OK] ffprobe: /c/Users/67/scoop/shims/ffprobe[0m
+[32m  [OK] кодек libx264 доступен (нужен пайплайну)[0m
+
+=== ГОТОВО ===
+Проверка:
+  "/d/for-move/.venv/bin/python" "/d/for-move/skachka/batch_dl.py" --check
+Запуск:
+  "/d/for-move/.venv/bin/python" "/d/for-move/skachka/batch_dl.py"
