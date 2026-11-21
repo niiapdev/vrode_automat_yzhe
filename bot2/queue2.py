@@ -8,7 +8,7 @@ import asyncio
 import logging
 import sqlite3
 import threading
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 from typing import Awaitable, Callable, Optional
@@ -31,6 +31,7 @@ class Job2:
     user_id: int
     status: str
     result: Optional[str] = None
+    extra: list = field(default_factory=list)  # доп. сообщения (таймкоды)
     error: Optional[str] = None
     created_at: Optional[str] = None
 
@@ -199,9 +200,17 @@ class QueueManager2:
                         logger.exception("Не удалось отправить прогресс")
 
                 try:
-                    result = await self._processor(job, progress)
+                    outcome = await self._processor(job, progress)
+                    # processor может вернуть строку (старый контракт) или
+                    # (итог, [доп. сообщения]) — например, таймкоды.
+                    if isinstance(outcome, tuple):
+                        result, extras = outcome[0], outcome[1] or []
+                    else:
+                        result, extras = outcome, []
+                    extras = [str(m) for m in extras if str(m).strip()]
                     self._mark_status(job.id, "done", result=str(result), error=None)
                     job.result = str(result)
+                    job.extra = extras
                     job.status = "done"
                     if self._notify_done is not None:
                         try:

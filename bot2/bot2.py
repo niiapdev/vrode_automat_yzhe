@@ -36,6 +36,7 @@ from vkbottle import Bot, BotTypes
 
 import config
 import tiktok2
+import timestamps2
 import video_pipeline2
 from pipeline2 import process_job
 from queue2 import Job2, QueueManager2
@@ -123,8 +124,24 @@ def _chunks(text: str, size: int = 3900):
     return [text[i : i + size] for i in range(0, len(text), size)] or [""]
 
 
-async def _send(user_id: int, text: str) -> None:
-    for chunk in _chunks(text):
+def _chunks_lines(text: str, size: int = 3900):
+    """Нарезка по строкам: длинный список таймкодов не рвётся посередине."""
+    text = text or ""
+    chunks: list[str] = []
+    current = ""
+    for line in text.splitlines(keepends=True):
+        if current and len(current) + len(line) > size:
+            chunks.append(current)
+            current = ""
+        current += line
+    if current:
+        chunks.append(current)
+    return chunks or [""]
+
+
+async def _send(user_id: int, text: str, by_lines: bool = False) -> None:
+    parts = _chunks_lines(text) if by_lines else _chunks(text)
+    for chunk in parts:
         await bot.api.messages.send(
             peer_id=user_id, random_id=_random_id(), message=chunk
         )
@@ -133,6 +150,9 @@ async def _send(user_id: int, text: str) -> None:
 async def _on_done(job: Job2) -> None:
     try:
         await _send(job.user_id, job.result or f"✅ Задача №{job.id} готова")
+        # Таймкоды — отдельным сообщением, чтобы их было удобно копировать.
+        for extra in job.extra or []:
+            await _send(job.user_id, extra, by_lines=True)
     except Exception as exc:
         logger.exception("Не удалось отправить итог: %s", exc)
 
@@ -225,8 +245,15 @@ async def _selftest(request_text: str) -> None:
         print(message, flush=True)
 
     result = await process_job(job, progress)
+    if isinstance(result, tuple):
+        result, extras = result[0], result[1] or []
+    else:
+        extras = []
     print("\n" + "=" * 60)
     print(result)
+    for extra in extras:
+        print("\n" + "=" * 60)
+        print(extra)
 
 
 async def _selftest_local(folder: str) -> None:
@@ -261,6 +288,14 @@ async def _selftest_local(folder: str) -> None:
         logo_path=paths2.LOGO_PATH,
         progress_coro=progress,
     )
+
+    # Заодно проверяем таймкоды по stage (как их посчитает бот).
+    print("\n" + "-" * 60)
+    print(
+        timestamps2.scan_stage(work / "stage", log=lambda m: print(m, flush=True))
+        or "Таймкоды: нет данных"
+    )
+
     clips = await asyncio.to_thread(
         tiktok2.make_clips,
         merged_path,

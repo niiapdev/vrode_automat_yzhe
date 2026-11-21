@@ -9,7 +9,8 @@
   -> 4 тиктока 9:16 из склейки (tiktok2, кадры 1.png / 2.png)
   -> уборка промежуточных файлов, итог в local_out2/ и tiktok_out2/<название>/
 
-В ВК уходят только этапные сообщения: скачивание -> обработка/склейка -> готово.
+В ВК уходят только этапные сообщения: скачивание -> обработка/склейка -> готово,
+плюс отдельным сообщением таймкоды серий (timestamps2).
 Подробности (каждая серия, каждый тикток) идут в консоль.
 """
 
@@ -24,6 +25,7 @@ from typing import Awaitable, Callable
 import batch_dl2
 import paths2
 import tiktok2
+import timestamps2
 import video_pipeline2
 
 logger = logging.getLogger("pipeline2")
@@ -96,8 +98,12 @@ def _validate_inputs() -> None:
 async def process_job(
     job,
     progress: Callable[[str], Awaitable[None]],
-) -> str:
-    """Полный цикл обработки одной задачи. Возвращает текст итогового сообщения."""
+) -> tuple[str, list[str]]:
+    """Полный цикл обработки одной задачи.
+
+    Возвращает (итоговый текст, [дополнительные сообщения]) — вторым идут
+    таймкоды, если их удалось посчитать.
+    """
     _validate_inputs()
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -133,6 +139,21 @@ async def process_job(
         raise JobError(f"Скачивание не удалось: {detail}")
 
     downloaded = len(download_result.files)
+
+    # Таймкоды: замер сразу после скачивания, пока файлы ещё в downloads.
+    # Любой сбой здесь не должен ломать задачу — поэтому отдельный try.
+    timeline = None
+    try:
+        timeline = await asyncio.to_thread(
+            timestamps2.Timeline.measure,
+            job_dir / timestamps2.JOURNAL_NAME,
+            paths2.PREVIEW_VIDEO,
+            download_result.files,
+            download_result.episodes,
+            _console_log,
+        )
+    except Exception:
+        logger.exception("Таймкоды: замер не удался, продолжаю без них")
 
     # Имя итогового файла: название аниме + какие серии внутри.
     merged_path = _free_path(
@@ -172,6 +193,13 @@ async def process_job(
         progress_coro=_console_progress,  # в ВК не дублируем
     )
 
+    # Добор для серий, у которых не прочиталась длительность: части ещё живы.
+    if timeline is not None:
+        try:
+            await asyncio.to_thread(timeline.retry_missing, stage_dir)
+        except Exception:
+            logger.exception("Таймкоды: добор по stage не удался")
+
     clips = await asyncio.to_thread(
         tiktok2.make_clips,
         merged_path,
@@ -189,6 +217,24 @@ async def process_job(
     for directory in (downloads_dir, input_dir, stage_dir):
         await asyncio.to_thread(shutil.rmtree, directory, True)
 
+    # Таймкоды: отчёт в папку задачи + отдельное сообщение в ВК.
+    timeline_message = None
+    elapsed = None
+    if timeline is not None:
+        try:
+            merged_seconds = await asyncio.to_thread(
+                timestamps2.duration_seconds, merged_path
+            )
+            await asyncio.to_thread(
+                timeline.write_report,
+                job_dir / timestamps2.REPORT_NAME,
+                merged_seconds,
+            )
+            timeline_message = timeline.message()
+            elapsed = timestamps2.fmt_len(timeline.total)
+        except Exception:
+            logger.exception("Таймкоды: отчёт не удался, продолжаю без них")
+
     summary = {
         "job": job.id,
         "url": job.url,
@@ -204,6 +250,13 @@ async def process_job(
         "merged": _rel(merged_path),
         "tiktok_dir": _rel(tiktok_dir),
         "tiktok": [_rel(p) for p in clips],
+        "timings": None if timeline is None else {
+            "journal": _rel(job_dir / timestamps2.JOURNAL_NAME),
+            "report": _rel(job_dir / timestamps2.REPORT_NAME),
+            "total": elapsed,
+            "disclaimer": timeline.disclaimer,
+            "entries": timeline.entries,
+        },
         "problems": download_result.problems,
         "finished_at": datetime.now().isoformat(sep=" ", timespec="seconds"),
     }
@@ -225,4 +278,6 @@ async def process_job(
     if download_result.problems:
         lines += ["", "⚠️ Замечания по скачиванию:"]
         lines += [f"• {p.strip()}" for p in download_result.problems[:8]]
-    return "\n".join(lines)
+    if timeline is None:
+        lines += ["", "⚠️ Таймкоды не посчитаны — подробности в консоли бота"]
+    return "\n".join(lines), ([timeline_message] if timeline_message else [])
